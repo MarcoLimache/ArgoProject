@@ -8,6 +8,7 @@ spec:
   source: 
     repoURL: https://github.com/MarcoLimache/ArgoProject.git
     targetRevision: HEAD
+    path: application
   destination:
     server: https://kubernetes.default.svc
     namespace: argoapps
